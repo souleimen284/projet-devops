@@ -24,7 +24,7 @@ services:
 
   # Spring Boot Application
   app:
-    image: ${DOCKER_IMAGE:-naderite/eventsproject}:${DOCKER_TAG:-latest}
+    image: ${DOCKER_IMAGE:-souleimendocker/souleimen_doc_rep}:${DOCKER_TAG:-latest}
     container_name: eventsproject-app
     restart: unless-stopped
     ports:
